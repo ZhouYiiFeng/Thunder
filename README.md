@@ -10,12 +10,9 @@ The proposed Thunder contains two novel modules:
 - A **Subspace Projection based Refine Module (SPR)** which can restore the details for thumbnail progressively based on the subspace projection approach.
 
 <p align='center'>  
-  <img src='./imgreadm/cmp.png' width='600' />  
+  <img src='./imgreadm/cmp.png' width='550' />  
 </p>
 
-<p align='center'>  
-  <img src='./imgreadm/vis-results.png' />  
-</p>
 
 ## Introduction
 This is some source code and additional visualization examples of our **Thunder**.
@@ -47,6 +44,12 @@ To take advantage of **T**, we propose a signal-reconstruct manner and leverage 
 
 ## results
 More quantity results can be found in `768-Supplementary Material.pdf`
+
+
+<p align='center'>  
+  <img src='./imgreadm/vis-results.png' />  
+</p>
+
 <p align='center'>
   <img src='imgreadm/results.png'/>  
 </p>

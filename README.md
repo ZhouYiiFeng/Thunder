@@ -22,14 +22,18 @@ This is some source code and additional visualization examples of our **Thunder*
 
 **Motivation of Our Work**
 
-The noise is uniformly distributed across the ambient space, while the noiseless images (signals) lie in a low-dimensional subspace because of the spatial correlation.
+- The noise is uniformly distributed across the ambient space, 
+- The noiseless images (signals) lie in a low-dimensional subspace because of the spatial correlation.
 Based on this assumption, we assume that the complexity of modeling the noisy space is more than that of signal space.
 The existing methods suffer from the huge computational costs because convolutional layers project the feature by exponentially increasing channel numbers ( 3 -> 32 ... -> 1024 ).
 
-To achieve fast lightweight denoising, we compress the feature subspace to a small RGB subspace: **T**, therefore, we can reduce a lot of computational costs by alleviating the channel numbers for all the convolutional layers.
+To achieve fast lightweight denoising, **we compress the feature subspace to a small RGB subspace: T**, therefore, we can reduce a lot of computational costs by alleviating the channel numbers for all the convolutional layers.
+
 However, this subspace cannot afford enough representation ability to compute the noisy residual because of the capability limitation of **T**.
 On the contrary, **T** is more likely to reconstruct the signal.
-**T** not only can be regarded as the 3 channel RGB thumbnail for the clean image but also can be viewed as the low-frequency information of noisy images.
+
+1. **T** can be regarded as the 3 channel RGB thumbnail for the clean image 
+2. **T** can be viewed as the low-frequency information of noisy images.
 To take advantage of **T**, we propose a signal-reconstruct manner and leverage fewer parameters and less computational cost to achieve the fast lightweight denoising.
 
 **Insight of Our Work**

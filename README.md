@@ -10,7 +10,7 @@ The proposed Thunder contains two novel modules:
 - A **Subspace Projection based Refine Module (SPR)** which can restore the details for thumbnail progressively based on the subspace projection approach.
 
 <p align='center'>  
-  <img src='./imgreadm/cmp.png' width='400' />  
+  <img src='./imgreadm/cmp.png' width='600' />  
 </p>
 
 <p align='center'>  

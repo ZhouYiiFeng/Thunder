@@ -42,7 +42,7 @@ To take advantage of **T**, we propose a signal-reconstruct manner and leverage 
   <img src='imgreadm/framework.png' width='880'/>  
 </p>
 
-## results
+## Results
 More quantity results can be found in `768-Supplementary Material.pdf`
 
 
@@ -53,3 +53,11 @@ More quantity results can be found in `768-Supplementary Material.pdf`
 <p align='center'>
   <img src='imgreadm/results.png'/>  
 </p>
+
+## Code Details
+We provide the validation code for our method.
+The proposed method is implemented in **PyTorch**.
+Specifically, the `test_bsl.py` can be used to test the performance of SIDD validation dataset (`small_imgs_test.hdf5`).
+To run this code, you need to set the options file in `options/val/val_InvDN.yml` for the path to the `small_imgs_test.hdf5`.
+The weights for Thunder are provided in dir `weights/`.
+The provide Thunder can achieve 39.50dB PSNR.

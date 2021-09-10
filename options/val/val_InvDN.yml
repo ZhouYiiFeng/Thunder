@@ -3,7 +3,7 @@
 
 name: Thunder_val_sidd
 use_tb_logger: true
-model: InvDN
+model: Thunder
 scale: 4
 gpu_ids: [0,1]
 
